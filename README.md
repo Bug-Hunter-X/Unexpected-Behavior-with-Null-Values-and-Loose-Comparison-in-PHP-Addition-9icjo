@@ -1,0 +1,1 @@
+This repository demonstrates a subtle bug in PHP related to loose comparison and null values in addition. The `foo` function aims to return null if either input is null, otherwise sum them.  However, due to PHP's loose typing, unexpected behavior occurs. The solution illustrates a safer way to handle null checks to avoid such issues.
